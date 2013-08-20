@@ -83,6 +83,12 @@
 			"file_name" 	: "ApexTrigger.trigger",
 			"description" 	: "Basic Apex Trigger template",
 			"author" 		: "MavensMate"
+		},
+		{
+			"name" 			: "Bulkified Apex Trigger",
+			"file_name" 	: "ApexTriggerBulk.trigger",
+			"description" 	: "Bulk Apex Trigger with all Trigger events",
+			"author" 		: "David Schach @dschach"
 		}
 	]
 }

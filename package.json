@@ -7,6 +7,12 @@
 			"author" 		: "MavensMate"
 		},
 		{
+			"name" 			: "Controller Extension",
+			"file_name" 	: "ControllerExtension.cls",
+			"description" 	: "Controller extension Apex Class",
+			"author" 		: "David Schach @dschach"
+		},
+		{
 			"name" 			: "No Constructor",
 			"file_name" 	: "ApexClassNoConstructor.cls",
 			"description" 	: "The default template for an Apex Class",

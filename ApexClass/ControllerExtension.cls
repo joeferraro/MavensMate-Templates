@@ -10,6 +10,6 @@ public with sharing class {{ api_name }} {
     }
 
     public String getRecordName() {
-        return 'Hello ' + mysObject.name + ' (' + mysObject.id + ')';
+        return 'Hello ' + mysObject.name + ' (' + (Id)mysObject.get("Id") + ')';
     }
 }

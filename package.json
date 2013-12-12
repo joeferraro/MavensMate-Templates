@@ -43,6 +43,12 @@
 			"author" 		: "MavensMate"
 		},
 		{
+			"name"			: "Trigger Handler",
+			"file_name"		: "TriggerHandler.cls",
+			"description" 	: "An Interface that handles Trigger actions",
+			"author" 		: "MavensMate"
+		},
+		{
 			"name" 			: "Unit Test",
 			"file_name"		: "UnitTestApexClass.cls",
 			"description" 	: "Unit test class",

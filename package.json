@@ -81,6 +81,12 @@
 			"file_name"		: "ApexPage.page",
 			"description" 	: "Basic Visualforce Page template",
 			"author" 		: "MavensMate"
+		},
+		{
+			"name" 			: "Header and Page Block",
+			"file_name"		: "HeaderPageBlock.page",
+			"description" 	: "Visualforce Page with SectionHeader and PageBlock",
+			"author" 		: "MavensMate"
 		}
 	],
 	"ApexTrigger" : [

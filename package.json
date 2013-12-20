@@ -83,7 +83,7 @@
 			"author" 		: "MavensMate"
 		},
 		{
-			"name" 			: "Header and Page Block",
+			"name" 			: "Header and PageBlock",
 			"file_name"		: "HeaderPageBlock.page",
 			"description" 	: "Visualforce Page with SectionHeader and PageBlock",
 			"author" 		: "MavensMate"

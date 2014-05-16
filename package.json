@@ -53,6 +53,19 @@
 		   ]
 		},
 		{
+			"name" 			: "BDD Unit Test",
+			"file_name"		: "BDDUnitTestApexClass.cls",
+			"description" 	: "Behaviour Driven Development Unit test class",
+			"author" 		: "Paul Hardaker @comic96",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyBDDClass"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "Email Service",
 			"file_name"		: "EmailServiceApexClass.cls",
 			"description" 	: "Template for an Apex Email Service",
@@ -237,6 +250,24 @@
 			"file_name"		: "ApexTriggerBulk.trigger",
 			"description" 	: "Bulk Apex Trigger with all Trigger events",
 			"author" 		: "David Schach @dschach",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Trigger API Name",
+		            "default" 		: "MyCoolTrigger"
+		        },
+		        {   
+		            "name"          : "object_name",
+		            "description"   : "Object API Name",
+		            "default" 		: "Account"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "Apex Trigger All Events",
+			"file_name"		: "ApexTriggerAllEvents.trigger",
+			"description" 	: "Apex Trigger with all Trigger events",
+			"author" 		: "@alexander-brett",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",

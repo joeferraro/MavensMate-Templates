@@ -14,32 +14,6 @@
 		   ]
 		},
 		{
-			"name" 			: "Controller Extension",
-			"file_name"		: "ControllerExtension.cls",
-			"description" 	: "Controller extension Apex Class",
-			"author" 		: "David Schach @dschach",
-			"params" 		: [ 
-		        {   
-		            "name"          : "api_name",
-		            "description"   : "Apex Class API Name",
-		            "default" 		: "MyApexClass"
-		        }
-		   ]
-		},
-		{
-			"name" 			: "No Constructor",
-			"file_name"		: "ApexClassNoConstructor.cls",
-			"description" 	: "The default template for an Apex Class",
-			"author" 		: "MavensMate",
-			"params" 		: [ 
-		        {   
-		            "name"          : "api_name",
-		            "description"   : "Apex Class API Name",
-		            "default" 		: "MyApexClass"
-		        }
-		   ]
-		},
-		{
 			"name" 			: "Batch",
 			"file_name"		: "BatchApexClass.cls",
 			"description" 	: "Batch Apex Class",
@@ -66,10 +40,10 @@
 		   ]
 		},
 		{
-			"name" 			: "Email Service",
-			"file_name"		: "EmailServiceApexClass.cls",
-			"description" 	: "Template for an Apex Email Service",
-			"author" 		: "MavensMate",
+			"name" 			: "Controller Extension",
+			"file_name"		: "ControllerExtension.cls",
+			"description" 	: "Controller extension Apex Class",
+			"author" 		: "David Schach @dschach",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",
@@ -82,19 +56,6 @@
 			"name" 			: "Custom Exception",
 			"file_name"		: "ExceptionApexClass.cls",
 			"description" 	: "A custom exception class",
-			"author" 		: "MavensMate",
-			"params" 		: [ 
-		        {   
-		            "name"          : "api_name",
-		            "description"   : "Apex Class API Name",
-		            "default" 		: "MyApexClass"
-		        }
-		   ]
-		},
-		{
-			"name" 			: "HTTP Callout Mock",
-			"file_name"		: "HttpCalloutMock.cls",
-			"description" 	: "Http callout mock class",
 			"author" 		: "MavensMate",
 			"params" 		: [ 
 		        {   
@@ -121,6 +82,45 @@
 					"default"		: "Invoice__c"
 				}
 			]
+		},
+		{
+			"name" 			: "Email Service",
+			"file_name"		: "EmailServiceApexClass.cls",
+			"description" 	: "Template for an Apex Email Service",
+			"author" 		: "MavensMate",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexClass"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "HTTP Callout Mock",
+			"file_name"		: "HttpCalloutMock.cls",
+			"description" 	: "Http callout mock class",
+			"author" 		: "MavensMate",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexClass"
+		        }
+		   ]
+		},
+		{
+			"name" 			: "No Constructor",
+			"file_name"		: "ApexClassNoConstructor.cls",
+			"description" 	: "The default template for an Apex Class",
+			"author" 		: "MavensMate",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexClass"
+		        }
+		   ]
 		},		
 		{
 			"name" 			: "Schedulable",
@@ -295,10 +295,10 @@
 		   ]
 		},
 		{
-			"name" 			: "Bulkified Apex Trigger",
-			"file_name"		: "ApexTriggerBulk.trigger",
-			"description" 	: "Bulk Apex Trigger with all Trigger events",
-			"author" 		: "David Schach @dschach",
+			"name" 			: "Apex Trigger - All Events",
+			"file_name"		: "ApexTriggerAllEvents.trigger",
+			"description" 	: "Apex Trigger with all Trigger events",
+			"author" 		: "@alexander-brett",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",
@@ -313,10 +313,10 @@
 		   ]
 		},
 		{
-			"name" 			: "Apex Trigger All Events",
-			"file_name"		: "ApexTriggerAllEvents.trigger",
-			"description" 	: "Apex Trigger with all Trigger events",
-			"author" 		: "@alexander-brett",
+			"name" 			: "Apex Trigger - Bulkified",
+			"file_name"		: "ApexTriggerBulk.trigger",
+			"description" 	: "Bulk Apex Trigger with all Trigger events",
+			"author" 		: "David Schach @dschach",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",

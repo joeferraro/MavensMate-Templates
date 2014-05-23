@@ -37,11 +37,60 @@
 			"author" 		: "MavensMate"
 		},
 		{
+			"name" 			: "DomainClass",
+			"file_name"		: "DomainClass.cls",
+			"description" 	: "Apex Enterprise Patterns Domain Class",
+			"author" 		: "Andy Fawcett @andyinthecloud",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Domain class name, typically plural name",
+					"default"		: "Invoices"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "API name of the Standard or Custom Object",
+					"default"		: "Invoice__c"
+				}
+			]
+		},		
+		{
 			"name" 			: "Schedulable",
 			"file_name"		: "SchedulableApexClass.cls",
 			"description" 	: "A Schedulable class",
 			"author" 		: "MavensMate"
 		},
+		{
+			"name" 			: "SelectorClass",
+			"file_name"		: "SelectorClass.cls",
+			"description" 	: "Apex Enterprise Patterns Selector Class",
+			"author" 		: "Andy Fawcett @andyinthecloud",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Selector class name, typically plural name e.g. AccountsSelector",
+					"default"		: "InvoicesSelector"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "API name of the Standard or Custom Object",
+					"default"		: "Invoice__c"
+				}
+			]
+		},		
+		{
+			"name" 			: "ServiceClass",
+			"file_name"		: "ServiceClass.cls",
+			"description" 	: "Apex Enterprise Patterns Selector Class",
+			"author" 		: "Andy Fawcett @andyinthecloud",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Service class name, e.g. InvoiceService",
+					"default"		: "InvoiceService"
+				}
+			]
+		},		
 		{
 			"name"			: "Trigger Handler",
 			"file_name"		: "TriggerHandler.cls",
@@ -101,6 +150,24 @@
 			"file_name"		: "ApexTriggerBulk.trigger",
 			"description" 	: "Bulk Apex Trigger with all Trigger events",
 			"author" 		: "David Schach @dschach"
-		}
+		},
+		{
+			"name" 			: "DomainTrigger",
+			"file_name"		: "DomainTrigger.trigger",
+			"description" 	: "Apex Enterprise Patterns Domain Trigger",
+			"author" 		: "Andy Fawcett @andyinthecloud",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Domain trigger name, must be same as Domain class name",
+					"default"		: "Invoices"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "API name of the Standard or Custom Object",
+					"default"		: "Invoice__c"
+				}
+			]
+		}		
 	]
 }

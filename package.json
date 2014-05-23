@@ -44,7 +44,7 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Domain class name, typically plural name",
+					"description"	: "Domain class name (typically plural)",
 					"default"		: "Invoices"
 				},
 				{
@@ -68,7 +68,7 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Selector class name, typically plural name e.g. AccountsSelector",
+					"description"	: "Selector class name (typically plural e.g. AccountsSelector)",
 					"default"		: "InvoicesSelector"
 				},
 				{
@@ -86,7 +86,7 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Service class name, e.g. InvoiceService",
+					"description"	: "Service class name (e.g. InvoiceService)",
 					"default"		: "InvoiceService"
 				}
 			]

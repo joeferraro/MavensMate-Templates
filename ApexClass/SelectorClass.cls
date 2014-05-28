@@ -35,6 +35,7 @@ public class {{ api_name }} extends fflib_SObjectSelector
 	 * 
 	public List<{{ object_name }}> selectBySomethingElse(List<String> somethings)
 	{
+		assertIsAccessible();
 		return (List<{{ object_name }}>) Database.query(
 				String.format(
 				'select {0}, ' +

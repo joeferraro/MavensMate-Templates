@@ -15,8 +15,7 @@ public class {{ api_name }} extends fflib_SObjectSelector
 	public List<Schema.SObjectField> getSObjectFieldList()
 	{
 		return new List<Schema.SObjectField> {
-				{{ object_name }}.Id,
-				{{ object_name }}.Name
+				{{ object_name }}.Id
 			};
 	}
 

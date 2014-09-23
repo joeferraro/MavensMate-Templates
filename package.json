@@ -230,6 +230,19 @@
 		            "default" 		: "MyApexClass"
 		        }
 		   ]
+		}, 
+		{
+			"name" 			: "Singletone",
+			"file_name"		: "Singletone.cls",
+			"description" 	: "Singletone class",
+			"author" 		: "Anton Chernotsky",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexSingletone"
+		        }
+		   ]
 		}
 	],
 	"ApexComponent" : [

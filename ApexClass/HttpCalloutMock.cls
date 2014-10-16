@@ -14,14 +14,14 @@ public class {{ api_name }} implements HttpCalloutMock {
     }
 
     public HTTPResponse respond(HTTPRequest req) {
-        //System.assertEquals('http://api.salesforce.com/foo/bar', req.getEndpoint());
-        //System.assertEquals('GET', req.getMethod());
-        
-        // Create a fake response
+
         HttpResponse res = new HttpResponse();
-        res.setHeader('Content-Type', 'application/json');
-        res.setBody('{"foo":"bar"}');
-        res.setStatusCode(200);
+        for(String key : this.responseHeaders.keySet()){
+            res.setHeader(key, this.responseHeaders.get(key));
+        }
+        res.setBody(this.body);
+        res.setStatusCode(this.code);
+        res.setStatus(this.status);
         return res;
     }
 

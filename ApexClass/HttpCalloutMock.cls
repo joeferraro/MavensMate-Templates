@@ -16,7 +16,7 @@ public class {{ api_name }} implements HttpCalloutMock {
     public HTTPResponse respond(HTTPRequest req) {
 
         HttpResponse res = new HttpResponse();
-        for(String key : this.responseHeaders.keySet()){
+        for (String key : this.responseHeaders.keySet()) {
             res.setHeader(key, this.responseHeaders.get(key));
         }
         res.setBody(this.body);

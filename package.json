@@ -25,7 +25,7 @@
 					"default"		: "ApexInterface"
 				}
 			]
-		}
+		},
 		{
 			"name" 			: "Auth Registration Handler",
 			"file_name"		: "AuthRegistrationHandler.cls",

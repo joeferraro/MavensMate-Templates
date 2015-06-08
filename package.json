@@ -14,6 +14,19 @@
 		   ]
 		},
 		{
+			"name" 			: "Auth Registration Handler",
+			"file_name"		: "AuthRegistrationHandler.cls",
+			"description" 	: "Registration Handler to manage logins for Auth. Providers",
+			"author" 		: "James Melville",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyRegHandler"
+		        }
+		   ]
+		},
+		{
 			"name" 			: "Batch",
 			"file_name"		: "BatchApexClass.cls",
 			"description" 	: "Batch Apex Class",

@@ -193,6 +193,19 @@
             ]
         },
         {  
+            "name":"Singleton",
+            "file_name":"Singleton.cls",
+            "description":"Singleton class",
+            "author":"Anton Chernotsky",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexSingleton"
+                }
+            ]
+        },
+        {  
             "name":"Trigger Handler",
             "file_name":"TriggerHandler.cls",
             "description":"An Interface that handles Trigger actions",
@@ -254,19 +267,6 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyApexClass"
-                }
-            ]
-        },
-        {  
-            "name":"Singleton",
-            "file_name":"Singleton.cls",
-            "description":"Singleton class",
-            "author":"Anton Chernotsky",
-            "params":[  
-                {  
-                    "name":"api_name",
-                    "description":"Apex Class API Name",
-                    "default":"MyApexSingleton"
                 }
             ]
         }

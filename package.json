@@ -14,6 +14,19 @@
 		   ]
 		},
 		{
+			"name" 			: "ApexInterface",
+			"file_name"		: "ApexInterface.cls",
+			"description" 	: "The default template for an Apex Interface",
+			"author" 		: "Amey Nevrekar",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "The default template for an Apex Template",
+					"default"		: "ApexInterface"
+				}
+			]
+		}
+		{
 			"name" 			: "Auth Registration Handler",
 			"file_name"		: "AuthRegistrationHandler.cls",
 			"description" 	: "Registration Handler to manage logins for Auth. Providers",
@@ -373,19 +386,6 @@
 					"default"		: "Invoice__c"
 				}
 			]
-		},
-		{
-			"name" 			: "ApexInterface",
-			"file_name"		: "ApexInterface.cls",
-			"description" 	: "The default template for an Apex Interface",
-			"author" 		: "Amey Nevrekar",
-			"params"		: [
-				{
-					"name"			: "api_name",
-					"description"	: "The default template for an Apex Template",
-					"default"		: "ApexInterface"
-				}
-			]
-		}				
+		}
 	]
 }

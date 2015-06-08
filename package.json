@@ -373,6 +373,19 @@
 					"default"		: "Invoice__c"
 				}
 			]
-		}		
+		},
+		{
+			"name" 			: "ApexInterface",
+			"file_name"		: "ApexInterface.cls",
+			"description" 	: "The default template for an Apex Interface",
+			"author" 		: "Amey Nevrekar",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "The default template for an Apex Template",
+					"default"		: "ApexInterface"
+				}
+			]
+		}				
 	]
 }

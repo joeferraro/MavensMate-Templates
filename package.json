@@ -101,16 +101,12 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyCustomIterable"
-                }
-            ],
-            [ 
+                },
                 {  
                     "name":"type_name",
                     "description":"Type name",
                     "default":"Account"
-                }
-            ],
-            [ 
+                },
                 {  
                     "name":"iterator_class_name",
                     "description":"Iterator Apex Class API Name",
@@ -128,9 +124,7 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyCustomIterable"
-                }
-            ],
-            [ 
+                },
                 {  
                     "name":"type_name",
                     "description":"Type name",

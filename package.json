@@ -92,6 +92,33 @@
             ]
         },
         {  
+            "name":"Custom Iterable",
+            "file_name":"CustomIterable.cls",
+            "description":"A custom iterable class",
+            "author":"Jean-Philippe Monette @jpmonette",
+            "params":[ 
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyCustomIterable"
+                }
+            ],
+            [ 
+                {  
+                    "name":"type_name",
+                    "description":"Type name",
+                    "default":"Account"
+                }
+            ],
+            [ 
+                {  
+                    "name":"iterator_class_name",
+                    "description":"Iterator Apex Class API Name",
+                    "default":"MyCustomIteror"
+                }
+            ]
+        },
+        {  
             "name":"DomainClass",
             "file_name":"DomainClass.cls",
             "description":"Apex Enterprise Patterns Domain Class",

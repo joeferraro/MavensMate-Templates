@@ -148,6 +148,19 @@
                 }
             ]
         },
+        {
+            "name":"Queueable",
+            "file_name":"QueueableApexClass.cls",
+            "description":"A Queueable class",
+            "author":"Michael Fairchild",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyQueueableApexClass"
+                }
+            ]
+        },
         {  
             "name":"Schedulable",
             "file_name":"SchedulableApexClass.cls",

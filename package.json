@@ -110,6 +110,47 @@
             ]
         },
         {  
+            "name":"DomainObjectBuilder",
+            "file_name":"DomainObjectBuilderClass.cls",
+            "description":"Apex Enterprise Patterns Domain Object Builder Class",
+            "author":"Jon Davis @jondavis9898",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Domain Object Builder class name",
+                    "default":"Invoice_t"
+                },
+                {  
+                    "name":"base_name",
+                    "description":"Domain Object Builder Base class name",
+                    "default":"Domain_t"
+                },                
+                {  
+                    "name":"object_name",
+                    "description":"API name of the Standard or Custom Object",
+                    "default":"Invoice__c"
+                },
+                {  
+                    "name":"mother_name",
+                    "description":"Method name for empty Builder Object Mother method",
+                    "default":"anInvoice"
+                }                
+            ]
+        },        
+        {  
+            "name":"DomainObjectBuilderBase",
+            "file_name":"DomainObjectBuilderBaseClass.cls",
+            "description":"Apex Enterprise Patterns Domain Object Builder Base Class",
+            "author":"Jon Davis @jondavis9898",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Domain Object Builder Base class name",
+                    "default":"Domain_t"
+                }
+            ]
+        },               
+        {  
             "name":"Email Service",
             "file_name":"EmailServiceApexClass.cls",
             "description":"Template for an Apex Email Service",

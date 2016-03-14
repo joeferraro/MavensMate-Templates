@@ -161,7 +161,30 @@
                 }
             ]
         },
-        {  
+        {
+            "name":"RestResource",
+            "file_name":"RestResourceApexClass.cls",
+            "description":"A RestResource class",
+            "author":"Michael Fairchild",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyRestResourceApexClass"
+                },
+                {
+                    "name":"object_name",
+                    "description":"API name of the Standard or Custom Object",
+                    "default":"Contact"
+                },
+                {
+                    "name":"url",
+                    "description":"URL Mapping",
+                    "default":"contact"
+                }
+            ]
+        },
+        {
             "name":"Schedulable",
             "file_name":"SchedulableApexClass.cls",
             "description":"A Schedulable class",

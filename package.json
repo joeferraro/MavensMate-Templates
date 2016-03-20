@@ -218,7 +218,6 @@
                 }
             ]
         },
-        {  
         {
             "name":"Trigger Handler - Comprehensive",
             "file_name":"TriggerHandlerComprehensive.cls",
@@ -237,6 +236,7 @@
                 }
             ]
         },
+        {
             "name":"Unit Test",
             "file_name":"UnitTestApexClass.cls",
             "description":"Unit test class",

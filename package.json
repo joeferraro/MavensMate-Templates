@@ -448,6 +448,27 @@
                     "default":"MyVisualforcePageName"
                 }
             ]
+        },
+        {
+            "name": "Lightning Design System",
+            "file_name": "LightningDesignSystem.page",
+            "description": "Visualforce Page ready to use SLDS.",
+            "author": "@SuperPluck",
+            "params": [
+                {
+                    "name": "api_name",
+                    "description": "Visualforce Page API Name",
+                    "default": "MyVisualforcePageName"
+                }, {
+                    "name": "static_resource",
+                    "description": "Static resource with lds",
+                    "default": "SLDSXXX"
+                }, {
+                    "name": "page_title",
+                    "description": "Page title",
+                    "default": "MyVisualforcePageTitle"
+                }
+            ]
         }
     ],
     "ApexTrigger":[  

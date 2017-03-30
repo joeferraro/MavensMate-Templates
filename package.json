@@ -266,6 +266,19 @@
                 }
             ]
         },
+		{
+			"name" 			: "SandboxPostCopy",
+			"file_name"		: "SandboxPostCopyClass.cls",
+			"description" 	: "A SandboxPostCopy class",
+			"author" 		: "Jonathan Satterfield",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Apex Class API Name",
+		            "default" 		: "MyApexClass"
+		        }
+		   ]
+		},		
         {
             "name":"Schedulable",
             "file_name":"SchedulableApexClass.cls",

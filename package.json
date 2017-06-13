@@ -218,6 +218,34 @@
             ]
         },
         {  
+            "name":"Invocable",
+            "file_name":"Invocable.cls",
+            "description":"class with an Invocable method",
+            "author":"Bing @twtinc",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyInvocableClass"
+                },
+                {  
+                    "name":"method_name",
+                    "description":"Name for an Invocable method",
+                    "default":"MyInvocableMethod"
+                },
+                {  
+                    "name":"method_label",
+                    "description":"Invocable method label",
+                    "default":"My Invocable Method label"
+                },
+                {  
+                    "name":"method_description",
+                    "description":"Invocable method description",
+                    "default":"My Invocable method description"
+                }
+            ]
+        },
+        {  
             "name":"No Constructor",
             "file_name":"ApexClassNoConstructor.cls",
             "description":"The default template for an Apex Class",

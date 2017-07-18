@@ -9,52 +9,52 @@ public with sharing class {{ api_name }} {
     BatchSize = size;
   }
 
-  public void OnBeforeInsert({{ object_name }}[] new{{ object_name }}s){
+  public void OnBeforeInsert({{ object_name }}[] newRecords){
     /*
     //Example usage
-    for({{ object_name }} new{{ object_name }} : new{{ object_name }}s){
-      if(new{{ object_name }}.AnnualRevenue == null){
-        new{{ object_name }}.AnnualRevenue.addError('Missing annual revenue');
+    for({{ object_name }} newRecord : newRecords){
+      if(newRecord.AnnualRevenue == null){
+        newRecord.AnnualRevenue.addError('Missing annual revenue');
       }
     }
     */
   }
 
-  public void OnAfterInsert({{ object_name }}[] new{{ object_name }}s){
+  public void OnAfterInsert({{ object_name }}[] newRecords){
 
   }
 
-  @future public static void OnAfterInsertAsync(Set<ID> new{{ object_name }}IDs){
+  @future public static void OnAfterInsertAsync(Set<ID> newRecordIDs){
     //Example usage
-    //List<{{ object_name }}> new{{ object_name }}s = [select Id, Name from {{ object_name }} where Id IN :new{{ object_name }}IDs];
+    //List<{{ object_name }}> newRecords = [select Id, Name from {{ object_name }} where Id IN :newRecordIDs];
   }
 
-  public void OnBeforeUpdate({{ object_name }}[] old{{ object_name }}s, {{ object_name }}[] updated{{ object_name }}s, Map<ID, {{ object_name }}> {{ object_name }}Map){
+  public void OnBeforeUpdate({{ object_name }}[] oldRecords, {{ object_name }}[] updatedRecords, Map<ID, {{ object_name }}> recordMap){
     //Example Map usage
-    //Map<ID, Contact> contacts = new Map<ID, Contact>( [select Id, FirstName, LastName, Email from Contact where {{ object_name }}Id IN :{{ object_name }}Map.keySet()] );
+    //Map<ID, Contact> contacts = new Map<ID, Contact>( [select Id, FirstName, LastName, Email from Contact where {{ object_name }}Id IN :recordMap.keySet()] );
   }
 
-  public void OnAfterUpdate({{ object_name }}[] old{{ object_name }}s, {{ object_name }}[] updated{{ object_name }}s, Map<ID, {{ object_name }}> {{ object_name }}Map){
-
-  }
-
-  @future public static void OnAfterUpdateAsync(Set<ID> updated{{ object_name }}IDs){
-    //List<{{ object_name }}> updated{{ object_name }}s = [select Id, Name from {{ object_name }} where Id IN :updated{{ object_name }}IDs];
-  }
-
-  public void OnBeforeDelete({{ object_name }}[] {{ object_name }}sToDelete, Map<ID, {{ object_name }}> {{ object_name }}Map){
+  public void OnAfterUpdate({{ object_name }}[] oldRecords, {{ object_name }}[] updatedRecords, Map<ID, {{ object_name }}> recordMap){
 
   }
 
-  public void OnAfterDelete({{ object_name }}[] deleted{{ object_name }}s, Map<ID, {{ object_name }}> {{ object_name }}Map){
+  @future public static void OnAfterUpdateAsync(Set<ID> updatedRecordIDs){
+    //List<{{ object_name }}> updatedRecords = [select Id, Name from {{ object_name }} where Id IN :updatedRecordIDs];
+  }
+
+  public void OnBeforeDelete({{ object_name }}[] recordsToDelete, Map<ID, {{ object_name }}> recordMap){
 
   }
 
-  @future public static void OnAfterDeleteAsync(Set<ID> deleted{{ object_name }}IDs){
+  public void OnAfterDelete({{ object_name }}[] deletedRecords, Map<ID, {{ object_name }}> recordMap){
 
   }
 
-  public void OnUndelete({{ object_name }}[] restored{{ object_name }}s){
+  @future public static void OnAfterDeleteAsync(Set<ID> deletedRecordIDs){
+
+  }
+
+  public void OnUndelete({{ object_name }}[] restoredRecords){
 
   }
 
